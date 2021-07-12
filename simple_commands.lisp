@@ -1,3 +1,5 @@
+;; Compile lisp online - https://rextester.com/l/common_lisp_online_compiler
+
 ;; Função car, pega o primeiro item de um vetor
 ;; Vai imprimir 'a'
 (print (car '(a b c d)))
