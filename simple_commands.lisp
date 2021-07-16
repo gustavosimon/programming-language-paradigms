@@ -85,3 +85,14 @@
 
 ;; Vai imprimir 14, pois é o dobro do último
 (print (dobrou '(1 2 3 7)))
+
+;; Função para contar o número de elementos de uma lista
+(defun conta(l)
+  (if (null l)
+    0
+    (+ 1 (conta (cdr l)))))
+
+(defun soma(l)
+  (if (null l)
+    0
+    (+ ( car(l) (soma (cdr l))))))
